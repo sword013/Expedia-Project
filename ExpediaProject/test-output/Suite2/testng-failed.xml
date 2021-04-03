@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite2]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="UnitTests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="FactoryRunners.CheckoutRunner">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="returnCheckoutTest" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="OneWayCheckoutTest" invocation-numbers="0"/>
+          <include name="multiCheckoutTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- FactoryRunners.CheckoutRunner -->
+    </classes>
+  </test> <!-- UnitTests(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

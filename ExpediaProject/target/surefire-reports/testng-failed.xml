@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Main Suite]" parallel="tests">
+  <test thread-count="5" verbose="0" name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="FactoryRunners.SystemTestCasesRunner">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="multiCityBooking" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="returnFlighBooking" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- FactoryRunners.SystemTestCasesRunner -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" verbose="0" name="OperaTest(failed)" parallel="tests">
+    <parameter name="browser" value="opera"/>
+    <classes>
+      <class name="FactoryRunners.SystemTestCasesRunner">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="multiCityBooking" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="returnFlighBooking" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- FactoryRunners.SystemTestCasesRunner -->
+    </classes>
+  </test> <!-- OperaTest(failed) -->
+  <test thread-count="5" verbose="0" name="UnitTests(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="FactoryRunners.CheckoutRunner">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="returnCheckoutTest" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="OneWayCheckoutTest" invocation-numbers="0"/>
+          <include name="multiCheckoutTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- FactoryRunners.CheckoutRunner -->
+    </classes>
+  </test> <!-- UnitTests(failed) -->
+</suite> <!-- Failed suite [Main Suite] -->

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="OperaTest(failed)">
+    <parameter name="browser" value="opera"/>
+    <classes>
+      <class name="FactoryRunners.SystemTestCasesRunner">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="multiCityBooking"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="oneWayFlightBooking"/>
+          <include name="returnFlighBooking"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- FactoryRunners.SystemTestCasesRunner -->
+    </classes>
+  </test> <!-- OperaTest(failed) -->
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="FactoryRunners.SystemTestCasesRunner">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="multiCityBooking"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="oneWayFlightBooking"/>
+          <include name="returnFlighBooking"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- FactoryRunners.SystemTestCasesRunner -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

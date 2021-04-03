@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [MainSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="UnitTests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="FactoryRunners.CheckoutRunner">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="CheckPageTest1"/>
+          <include name="CheckPageTest3"/>
+          <include name="CheckPageTest2"/>
+        </methods>
+      </class> <!-- FactoryRunners.CheckoutRunner -->
+      <class name="FactoryRunners.CheckChildRunner">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="AgeCheck1"/>
+          <include name="AgeCheck2"/>
+        </methods>
+      </class> <!-- FactoryRunners.CheckChildRunner -->
+      <class name="FactoryRunners.SearchingFlightsRunner">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="multiSearching" invocation-numbers="1"/>
+          <include name="afterClass"/>
+          <include name="oneWaySearching" invocation-numbers="2"/>
+          <include name="returnSearching" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- FactoryRunners.SearchingFlightsRunner -->
+    </classes>
+  </test> <!-- UnitTests(failed) -->
+</suite> <!-- Failed suite [MainSuite] -->

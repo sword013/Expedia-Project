@@ -1,0 +1,6 @@
+For starting jenkins server :
+open cmd in jenkins.war folder
+java -jar jenkins.jar
+
+For generating allure : 
+cmd > allure serve <Path of allure report folder>

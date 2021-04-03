@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 416.445 s <<< FAILURE! - in TestSuite
+returnFlighBooking(FactoryRunners.SystemTestCasesRunner)  Time elapsed: 26.878 s  <<< FAILURE!
+java.lang.AssertionError: Fields have changed compared to previous version.
+	at FactoryRunners.SystemTestCasesRunner.returnFlighBooking(SystemTestCasesRunner.java:85)
+
+returnFlighBooking(FactoryRunners.SystemTestCasesRunner)  Time elapsed: 27.356 s  <<< FAILURE!
+java.lang.AssertionError: Fields have changed compared to previous version.
+	at FactoryRunners.SystemTestCasesRunner.returnFlighBooking(SystemTestCasesRunner.java:85)
+
+OneWayCheckoutTest(FactoryRunners.CheckoutRunner)  Time elapsed: 4.257 s  <<< FAILURE!
+java.lang.AssertionError: Stopper effect observed, Version has changed and as a result unit testing cannot be carried out
+	at FactoryRunners.CheckoutRunner.OneWayCheckoutTest(CheckoutRunner.java:27)
+
+multiCheckoutTest(FactoryRunners.CheckoutRunner)  Time elapsed: 7.376 s  <<< FAILURE!
+java.lang.AssertionError: Stopper effect observed, Version has changed and as a result unit testing cannot be carried out
+	at FactoryRunners.CheckoutRunner.multiCheckoutTest(CheckoutRunner.java:118)
+
+returnCheckoutTest(FactoryRunners.CheckoutRunner)  Time elapsed: 18.39 s  <<< FAILURE!
+java.lang.AssertionError: Stopper effect observed, Version has changed and as a result unit testing cannot be carried out
+	at FactoryRunners.CheckoutRunner.returnCheckoutTest(CheckoutRunner.java:72)
+
+multiCityBooking(FactoryRunners.SystemTestCasesRunner)  Time elapsed: 19.2 s  <<< FAILURE!
+java.lang.AssertionError: Fields have changed compared to previous version.
+	at FactoryRunners.SystemTestCasesRunner.multiCityBooking(SystemTestCasesRunner.java:106)
+
+multiCityBooking(FactoryRunners.SystemTestCasesRunner)  Time elapsed: 19.569 s  <<< FAILURE!
+java.lang.AssertionError: Fields have changed compared to previous version.
+	at FactoryRunners.SystemTestCasesRunner.multiCityBooking(SystemTestCasesRunner.java:106)
+

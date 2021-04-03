@@ -1,0 +1,26 @@
+sheetName= Sheet2
+url=https://www.expedia.co.in/
+browserName=chrome
+googleSearchField = //*[@name='q']
+implicitWaitTime=10
+excelInputPath = C:\\Users\\91777\\Desktop\\Compare.xlsx
+excelOutputPath = C:\\Users\\91777\\Desktop\\CompareResult.xlsx
+urlCheck=https://www.expedia.co.in/Checkout/V1/FlightCheckout?tripid=0a18d5c4-9066-57ba-ad3b-435c05abe525&c=b116a691-aae4-4ae0-a4b3-b82c5ba9f2eb
+loginDp=C:\\Users\\91777\\Desktop\\loginCSV.csv
+onewaySearchCSV=C:\\Users\\91777\\Desktop\\ExpediaCSVs\\oneWaySearchCSV.csv
+returnSearchCSV=C:\\Users\\91777\\Desktop\\ExpediaCSVs\\returnSearchCSV.csv
+multiSearchCSV=C:\\Users\\91777\\Desktop\\ExpediaCSVs\\multiSearchCSV.csv
+onewaySelectUrl=https://www.expedia.co.in/Flights-Search?flight-type=on&mode=search&trip=oneway&leg1=from%3AMumbai+%28BOM+-+Chhatrapati+Shivaji+Intl.%29%2Cto%3ADelhi+%28DEL+-+Indira+Gandhi+Intl.%29%2Cdeparture%3A13%2F04%2F2021TANYT&options=cabinclass%3Aeconomy&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY&fromDate=13%2F04%2F2021&d1=2021-04-13
+returnSelectUrl=https://www.expedia.co.in/Flights-Search?trip=roundtrip&leg1=from%3AMumbai%2C%20India%20(BOM)%2Cto%3ADelhi%2C%20India%20(DEL)%2Cdeparture%3A13%2F04%2F2021TANYT&leg2=from%3ADelhi%2C%20India%20(DEL)%2Cto%3AMumbai%2C%20India%20(BOM)%2Cdeparture%3A13%2F04%2F2021TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.co.in
+multiSelectUrl=https://www.expedia.co.in/Flights-Search?trip=multi&leg1=from%3AMumbai%2C%20India%20(BOM)%2Cto%3ADelhi%2C%20India%20(DEL)%2Cdeparture%3A13%2F04%2F2021TANYT&leg2=from%3ADelhi%20(DEL%20-%20Indira%20Gandhi%20Intl.)%2Cto%3AGoa%20(GOI%20-%20Dabolim)%2Cdeparture%3A14%2F04%2F2021TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.co.in
+cheapFlights=C:\\Users\\91777\\Desktop\\ExpediaCSVs\\cheapFlights.csv
+onewayCheckout=https://www.expedia.co.in/Checkout/V1/FlightCheckout?tripid=ffa0b3d8-9026-529b-8676-c1506482af8b&c=b3cf48d9-be49-436a-9c30-d7adbc46774f
+returnCheckout=https://www.expedia.co.in/Checkout/V1/FlightCheckout?tripid=b301103e-5dd0-5f9c-a889-22c5f17d0f8b&c=effba9ca-fdcb-4e45-93d4-7b677e789c7e
+multiCheckout=https://www.expedia.co.in/Checkout/V1/FlightCheckout?tripid=60c50ee5-04a2-59fa-9ce7-11ed9b1eace1&c=9ffb4d7b-7924-4334-9296-c89f6ac6e586
+checkoutCSV=C:\\Users\\91777\\Desktop\\ExpediaCSVs\\commonCheckout.csv
+oneWayBook=C:\\Users\\91777\\Desktop\\ExpediaCSVs\\System\\oneWayBookCSV.csv
+returnBook=C:\\Users\\91777\\Desktop\\ExpediaCSVs\\System\\returnBookCSV.csv
+multiBook=C:\\Users\\91777\\Desktop\\ExpediaCSVs\\System\\multiBookCSV.csv
+childCheck=https://www.expedia.co.in/Flights-Search?trip=roundtrip&leg1=from%3AMumbai%2C%20India%20(BOM)%2Cto%3ADelhi%2C%20India%20(DEL)%2Cdeparture%3A14%2F04%2F2021TANYT&leg2=from%3ADelhi%2C%20India%20(DEL)%2Cto%3AMumbai%2C%20India%20(BOM)%2Cdeparture%3A15%2F04%2F2021TANYT&passengers=adults%3A2%2Cchildren%3A2%5B12%3B9%5D%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.co.in
+childCSV=C:\\Users\\91777\\Desktop\\ExpediaCSVs\\child.csv
+colorCSV=C:\\Users\\91777\\Desktop\\ExpediaCSVs\\Colors.csv
